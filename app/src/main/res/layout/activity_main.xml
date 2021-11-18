@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:stretchColumns="1"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="209dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/pp"
+        tools:ignore="ContentDescription" />
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="0dp"
+        android:background="#FF800080"
+        android:visibility="visible" />
+
+    <TableLayout
+        android:id="@+id/tabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        !Nama
+        <TableRow
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp">
+            <TextView
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:textStyle="bold"
+                android:layout_weight="0"
+                android:gravity="left"
+                android:textColor="#FF000000"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+            <TextView
+                android:textSize="20sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text=": "
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:textColor="#FF000000"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+            <TextView
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Galih Adi Firmansah"
+                android:textStyle="italic"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:textColor="#FF800080"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+        </TableRow>
+
+        !NIM
+        <TableRow
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp">
+            <TextView
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NIM"
+                android:textStyle="bold"
+                android:layout_weight="0"
+                android:gravity="left"
+                android:textColor="#FF000000"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+            <TextView
+                android:textSize="20dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text=": "
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:textColor="#FF000000"
+                tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+            <TextView
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A11.2020.80017"
+                android:textStyle="italic"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:textColor="#FF800080"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+        </TableRow>
+
+        !Hobby
+        <TableRow
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp">
+            <TextView
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hobby"
+                android:textStyle="bold"
+                android:layout_weight="0"
+                android:gravity="left"
+                android:textColor="#FF000000"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+            <TextView
+                android:textSize="20sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text=": "
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:textColor="#FF000000"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+            <TextView
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drawing"
+                android:textStyle="italic"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:textColor="#FF800080"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:background="#FF800080"
+        android:visibility="visible" />
+
+    !Deskripsi
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:text="Saya, Galih, adalah seorang mahasiswa Teknik Informatika UDINUS yang antusias dan bermotifasi tinggi, inisiatif dan mencari tantangan baru."
+        android:textAlignment="center"
+        android:textSize="17dp"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <TextView
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTACT:"
+        android:textAlignment="center"
+        android:textStyle="normal"
+        android:textColor="#FF000000"
+        tools:ignore="HardcodedText" />
+
+    !Email
+    <TextView
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:autoLink="email"
+        android:linksClickable="true"
+        android:paddingBottom="5dp"
+        android:text="111202080017@mhs.dinus.ac.id"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        tools:ignore="HardcodedText" />
+
+    !Map
+    <TextView
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="https://goo.gl/maps/TyoxYfbD2MpS77iD7"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:paddingBottom="5dp"
+        tools:ignore="HardcodedText" />
+
+    !Telpon
+    <Button
+        android:layout_marginRight="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="phone"
+        android:linksClickable="true"
+        android:text="081359576968"
+        android:textColorLink="#000000"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
